@@ -1,0 +1,452 @@
+.upcoming-middle-text{
+    font-size:30px;
+    font-weight:bold;
+    font-family:yu gothic;
+    margin-top:500px;
+    color:white;
+    width:825px;
+    z-index:2;
+    position:absolute;
+    margin-left:500px
+}
+.right-pic{
+    width:500px;
+    
+    margin-left:1388px;
+    margin-top:-532px;
+    z-index:2;
+    
+}
+
+.right-pic img{
+    width:500px;
+    height:750px;
+    
+}
+
+
+
+
+.left-pic{
+    width:570px;
+    
+}
+
+.left-pic img{
+    width:562.5px;
+    height:750px;
+    z-index:3;
+    
+    margin-top:-70px;
+}
+/*----------------------------------------Social media icons---------------------------*/
+.social{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    z-index:5;
+    width:200px;
+    order:1px solid white;
+    position: relative;
+}
+
+.effect a {
+    /*display: flex; !!!uncomment this line !!!*/
+      text-decoration: none !important;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin-right: 20px;
+      font-size: 25px;
+      overflow: hidden;
+      position: relative;
+      color: white; 
+      border:2px solid white;
+     
+  }
+  
+  /* thurio effect thanks to https://freefrontend.com/css-social-media-icons/ */
+  .effect.thurio a {
+    transition: border-radius 0.2s linear 0s;
+    transform: rotate(45deg);
+  }
+  
+  .effect.thurio a i {
+    transition: transform 0.01s linear 0s;
+    transform: rotate(-45deg);
+  }
+  .effect.thurio :hover {
+        border-radius: 0px;
+        color:white;
+  }
+
+  @media screen and (max-width:992px) {
+    .social{
+        margin-top:500px;
+        margin-left:120px
+    }
+    
+}
+
+/*--------------------------Styling for the Shoe pictures, info, and goop background-------------------*/
+
+.shoe-price{
+    font-family:yu gothic;
+    font-size:30px;
+    margin:5px 0px 0px 200px;
+    font-weight:bold;
+    width:400px;
+}
+
+.release-date{
+    font-family:yu gothic;
+    font-size:30px;
+    margin:25px 0px 0px 200px;
+    font-weight:bold;
+    width:475px;
+}
+
+.goop-background{
+    order:2px solid red;
+    width:760px;
+    height:535px;
+    z-index:1;
+    position: relative;
+}
+.shoe-pic{
+    
+    width:760px;
+    height:535px;
+    margin:-600px 0px 0px 900px;
+    z-index:2;
+    
+}
+
+.shoe-pic img {
+    width:760px;
+    height:535px;
+    z-index:2;
+    position: absolute;
+    
+}
+.shoe-title{
+    width:255px;
+    height:140px;
+    order:1px solid black;
+    font-size:30px;
+    font-weight:bold;
+    font-family:yu gothic;
+    text-align:center;
+    margin:250px 0px 0px 350px;
+}
+
+.shoe-title-big{
+    width:255px;
+    height:200px;
+    font-size:30px;
+    font-weight:bold;
+    font-family:yu gothic;
+    text-align:center;
+    margin:250px 0px 0px 350px;
+}
+
+.shoe-info{
+    order:1px solid black;
+    width:570px;
+    height:340px;
+    font-family:yu gothic;
+    font-size:30px;
+    margin:25px 0px 0px 200px;
+    font-weight:medium;
+}
+.upcoming-body{
+    height:2907px;
+}
+
+@media screen and (max-width:992px) {
+    .shoe-info{
+        margin:20px 0px 0px 75px;
+        font-size:20px;
+        border:1px solid black;
+        height:250px;
+        width:350px;
+    }
+
+    .shoe-title{
+        margin:200px 0px 0px 100px;
+    }
+
+    .shoe-pic{
+        border:2px dotted red;
+        margin: -500px 0px 0px 20px; 
+        width:380px;
+        height:267.5px;
+        
+    }
+
+    .shoe-pic img{
+        width:380px;
+        height:267.5px;
+        border:1px solid black;
+        argin:-500px 0px -50px 300px;
+    }
+
+    .upcoming-body{
+        height:1800px;
+    }
+}
+
+/*--------------------upcoming front page------------*/
+.front-upcoming{
+    height:969px;
+    background-color:black;
+}
+/*-------------------------------My Footer------------------------------*/
+.effect-footer a {
+    /*display: flex; !!!uncomment this line !!!*/
+      text-decoration: none !important;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin-right: 20px;
+      font-size: 35px;
+      overflow: hidden;
+      position: relative;
+      color: white; 
+      border:2px solid white;
+     
+  }
+  
+  /* thurio effect thanks to https://freefrontend.com/css-social-media-icons/ */
+.effect-footer.thurio a {
+      transition: border-radius 0.2s linear 0s;
+      transform: rotate(45deg);
+  }
+  
+.effect-footer.thurio a i {
+      transition: transform 0.01s linear 0s;
+      transform: rotate(-45deg);
+  }
+.effect-footer.thurio :hover {
+      border-radius: 0px;
+      color:white;
+  }
+
+.social-footer{
+    
+    width:200px;
+    margin-top:-90px;
+    margin-left:800px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-link{
+    text-decoration: none;
+    font-family:consolas;
+    color:white;
+    font-size:60px;
+    width:100px;
+    margin-left:60px;
+}
+
+.upcoming-link{
+    text-decoration: none;
+    font-family:consolas;
+    color:white;
+    font-size:25px;
+    width:120px;
+    margin-left:80px;
+    
+    
+}
+
+.archive-link{
+    text-decoration: none;
+    font-family:consolas;
+    color:white;
+    font-size:25px;
+    width:100px;
+    margin-left:80px;
+}
+
+.footer{
+    height:200px;
+    background-color:black; 
+}
+
+.home-link & .upcoming-link & .archive-link :hover{
+    text-decoration:none;
+    color:red;
+}
+
+.footer a {
+    color:white;
+}
+
+@media screen and (max-width:992px) {
+    .footer{
+        height:500px;
+    }
+
+    .home-link{
+        margin-left:100px;
+        
+    }
+
+    .upcoming-link{
+        margin-left:160px;
+    }
+
+    .archive-link{
+        margin-left:160px;
+    }
+
+    .social-footer{
+        margin-left:125px;
+        margin-top:50px;
+    }
+}
+
+/*---------------------Text and image under landing page-------------*/
+.summary-text{
+    font-size:80px;
+    font-weight:bold;
+    font-family: consolas;
+    color:black;
+    order:1px solid black;
+    width:440px;
+    height:420px;
+    margin-left:190px;
+    margin-top:150px;
+}
+
+.summary-text p {
+    font-size:40px;
+    order:1px solid red;
+    width:505px;
+    height: 210px;
+}
+
+.lands{
+    background-color:white;
+    height:969px;
+}
+
+.lands img{
+    margin-left:755px;
+    margin-top:-450px;
+    order:1px solid purple;
+}
+
+@media screen and (max-width:992px) {
+    .summary-text{
+        font-size:40px;
+        order:1px solid black;
+        margin-left:10px;
+        text-align:center;
+    }
+
+    .summary-text p {
+        font-size:20px;
+        width:350px;
+        margin-left:40px;
+    }
+
+    .lands img{
+        margin-top:-250px;
+        margin-left:50px;
+        width:80%;
+        eight:50%;
+    }
+
+    .lands{
+        height:600px;
+    }
+}
+
+
+.front{
+    background-image:url("HeatWave-images/Background-heat.gif");
+    background-size:auto;
+    height: 969px;
+    
+}
+
+.front img{
+    position: absolute;
+    z-index: 2;
+    margin-top:-400px;
+    margin-left:-50px;
+}
+
+.front-text{
+    width:524px;
+    height:121px;
+    font-size:100px;
+    color:white;
+    font-weight:bold;
+    margin-left:1134px;
+    margin-top:262px;
+    z-index: 3;
+}
+
+@media screen and (max-width:992px) {
+    .front img {
+        width:95%;
+        margin-top:100px;
+        margin-left:-10px;
+        order:1px solid yellow;
+    }
+
+    .front-text{
+        border:1px solid black;
+        margin-left:10px;
+        font-size:70px;
+        width:420px;
+        margin-top:0px;
+    }
+
+    .front{
+        height:700px;
+    }
+}
+/*--------------------------Nav Bar--------------------------*/
+.search{
+    margin-left:1500px;
+    margin-top:15px;
+    opacity:.5;
+    font-family:consolas;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: absolute;
+    border:solid 1px black;
+}
+
+.navbar-toggle .icon-bar{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white;
+}
+
+.navbar a {
+    color:white;
+}
+.top-page{
+    font-family: 'Consolas';
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.spacer{
+    padding:0px 150px 0px 150px;
+    font-size:30px;
+}
