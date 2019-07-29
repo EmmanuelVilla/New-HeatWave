@@ -91,6 +91,23 @@
     
 }
 
+/*------------------iphone-X---------------*/
+@media screen and (max-width:375px) {
+    .social{
+        margin-top:450px;
+        margin-left:90px
+    }
+}
+
+/*------------------iphone-6-8-plump---------------*/
+@media screen and (max-width:414px) {
+    
+}
+
+/*------------------ipad---------------*/
+@media screen and (max-width:768px) {
+    
+}
 /*--------------------------Styling for the Shoe pictures, info, and goop background-------------------*/
 
 .shoe-price{
@@ -371,9 +388,37 @@
     }
 }
 
+/*------------------iphone-X---------------*/
+@media screen and (max-width:375px) {
+    .summary-text{
+        font-size:20px;
+        margin-left:5px;
+        text-align:center;
+    }
+
+    .summary-text p {
+        font-size:15px;
+        width:300px;
+        margin-left:20px;
+    }
+
+    .lands{
+        height:590px;
+    }
+}
+
+/*------------------iphone-6-8-plump---------------*/
+@media screen and (max-width:414px) {
+    
+}
+
+/*------------------ipad---------------*/
+@media screen and (max-width:768px) {
+    
+}
 
 .front{
-    background-image:url("Background-heat.gif");
+    background-image:url("HeatWave-images/Background-heat.gif");
     background-size:auto;
     height: 969px;
     
@@ -416,6 +461,26 @@
     .front{
         height:700px;
     }
+}
+/*------------------iphone-X---------------*/
+@media screen and (max-width:375px) {
+    .front-text{
+        order:1px solid black;
+        margin-left:10px;
+        font-size:45px;
+        width:400px;
+        margin-top:0px;
+    }
+}
+
+/*------------------iphone-6-8-plump---------------*/
+@media screen and (max-width:414px) {
+    
+}
+
+/*------------------ipad---------------*/
+@media screen and (max-width:768px) {
+    
 }
 /*--------------------------Nav Bar--------------------------*/
 .search{
