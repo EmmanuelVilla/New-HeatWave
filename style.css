@@ -1,246 +1,490 @@
-.upcoming-middle-text{
-    font-size:30px;
+.archive-color-two{
+    margin:60vh 0% 0% 10vw;
+    padding:0px 0px 0px 0px;
+    width:40%;
+    height:30%;
+    font-size:4vh;
     font-weight:bold;
     font-family:yu gothic;
-    margin-top:500px;
+    /*font-size:8vw;*/
+    background-color:transparent;
     color:white;
-    width:825px;
-    z-index:2;
     position:absolute;
-    margin-left:500px
 }
+
+.archive-color{
+    display:none;
+}
+.archive-img-first{
+    height:51%;
+    margin:15% 0px 0px 5%;
+    border:none;
+}
+
+.archive-text{
+    display:none;
+}
+.archive-img-second{
+    display:none;
+}
+
 .right-pic{
-    width:500px;
-    
-    margin-left:1388px;
-    margin-top:-532px;
-    z-index:2;
-    
-}
-
-.right-pic img{
-    width:500px;
-    height:750px;
-    
-}
-
-
-
-
-.left-pic{
-    width:570px;
-    
+    display:none;
 }
 
 .left-pic img{
-    width:562.5px;
-    height:750px;
+    width:75%;
+    margin:13% 0px 0px 8%;
     z-index:3;
-    
-    margin-top:-70px;
-}
-/*----------------------------------------Social media icons---------------------------*/
-.social{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    z-index:5;
-    width:200px;
-    order:1px solid white;
-    position: relative;
+    position:absolute;
 }
 
-.effect a {
-    /*display: flex; !!!uncomment this line !!!*/
-      text-decoration: none !important;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      margin-right: 20px;
-      font-size: 25px;
-      overflow: hidden;
-      position: relative;
-      color: white; 
-      border:2px solid white;
-     
-  }
-  
-  /* thurio effect thanks to https://freefrontend.com/css-social-media-icons/ */
-  .effect.thurio a {
-    transition: border-radius 0.2s linear 0s;
-    transform: rotate(45deg);
-  }
-  
-  .effect.thurio a i {
-    transition: transform 0.01s linear 0s;
-    transform: rotate(-45deg);
-  }
-  .effect.thurio :hover {
-        border-radius: 0px;
+.upcoming-middle-text{
+    font-size:8vw;
+    margin:120% 0px 0px 20%;
+    position:absolute;
+    width:50%;
+    padding:0px 0px 0px 0px;
+    background-color:transparent;
+    z-index:2;
+    font-weight:bold;
+    font-family:yu gothic;
+    color:white;
+}
+
+.upcoming-front-text{
+    display:none;
+}
+
+.upcoming-color{
+    display:none;
+}
+
+.front-upcoming{
+    height:100vh;
+    background-color:black;
+}
+
+/*--------------desktop-----------*/
+@media only screen and (min-width:768px){
+    .front-upcoming{
+        height:51vw;
+    }
+
+    .archive-color-two{
+        width:6.9%;
+        height:50%;
+        margin:15% 0px 0px 80%;
+        padding:50px 10px 20px 10px;
+        background-color:rgb(36, 36, 134);
+        position:absolute;
+        font-size:2vw;
+    }
+
+    .archive-color{
+        width:18.8%;
+        height:11%;
+        margin:16% 0px 0px 0px;
+        background-color:rgb(36, 36, 134);
+        position:absolute;
+        display:initial;
+    }
+
+    .archive-img-second{
+        height:50%;
+        border:2px solid white;
+        margin:25.5% 0px 0px 0px;
+        position:absolute;
+        display:initial;
+    }
+
+    .archive-img-first{
+        height:70%;
+        margin:5% 0px 0px 45%;
+        border:2px solid white;
+        position:absolute;
+        z-index:1;
+    }
+
+    .archive-text{
+        z-index:2;
+        position:absolute;
+        margin:16% 0px 0px 15.7%;
+        color:black;
+        opacity:.4;
+        font-size:4.2vw;
+        font-weight:bold;
+        font-family:yu gothic;
+        letter-spacing: 2px;
+        text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+        display:initial;
+    }
+    /*---------liked the way this looked-----*/
+    .rchive-text{
+        z-index:2;
+        position:absolute;
+        width:400px;
+        margin:300px 0px 0px 300px;
         color:white;
-  }
+        opacity:.1;
+        font-size:80px;
+        font-weight:bold;
+        font-family:yu gothic;
+        letter-spacing: 2px;
+        text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+    }
 
-  @media screen and (max-width:992px) {
-    .social{
-        margin-top:500px;
-        margin-left:120px
+    .upcoming-color{
+        background-color:#993333;
+        margin:39.5% 0px 0px 11.5%;
+        width:30%;
+        height:11%;
+        position:absolute;
+        z-index:1;
+        display:initial;
+    }
+
+    .upcoming-front-text{
+        color:black;
+        opacity:.4;
+        position:absolute;
+        margin:39.5% 0px 0px 5%;
+        font-size:4.2vw;
+        font-weight:bold;
+        font-family:yu gothic;
+        letter-spacing: 2px;
+        text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+        z-index:4;
+        display:initial;
+    }
+
+    .upcoming-middle-text{
+        font-size:2vw;
+        padding:50px 10px 20px 10px;
+        margin:100px 0px 0px 45%;
+        background-color:#993333;
+        width:8.5%;
+        height:55%;
+    }
+
+    .right-pic{
+        margin: 10% 0px 0px 70%;
+        z-index:2;
+        position:absolute;
+        display:initial;
+    }
+
+    .right-pic img{
+        width:80%;
+    }
+
+    .left-pic img{
+        width:28%;
+        margin:0px 0px 0px 0px ;
+    }
+}
+
+/*-------------ipad-----------*/
+
+@media only screen and (max-width:768px) {
+    .ront-upcoming{
+        height:135vw;
+    }
+    .rchive-color-two{
+        margin:85% 0% 0% 22%;
+        padding:0px 0px 0px 0px;
+        width:40%;
+        height:30%;
+        font-size:4vh;
+        background-color:transparent;
     }
     
-}
-
-/*------------------iphone-X---------------*/
-@media screen and (max-width:375px) {
-    .social{
-        margin-top:450px;
-        margin-left:90px
+    .rchive-color{
+        display:none;
     }
-}
-
-/*------------------iphone-6-8-plump---------------*/
-@media screen and (max-width:414px) {
     
-}
-
-/*------------------ipad---------------*/
-@media screen and (max-width:768px) {
+    .rchive-img-first{
+        height:51%;
+        margin:15% 0px 0px 22%;;
+    }
     
+    .rchive-text{
+        display:none;
+    }
+    .rchive-img-second{
+        display:none;
+    }
+
+    .ight-pic{
+        display:none;
+    }
+
+    .eft-pic img{
+        width:51%;
+        margin:15% 0px 0px 22%;
+        border:2px solid white;
+    }
+
+    .pcoming-middle-text{
+        font-size:3vh;
+        margin:85% 0px 0px 22%;
+        width:25%;
+        height:25%;
+        padding:0px 0px 0px 0px;
+        background-color:transparent;
+    }
+
+    .pcoming-front-text{
+        display:none;
+    }
+
+    .pcoming-color{
+        display:none;
+    }
 }
 /*--------------------------Styling for the Shoe pictures, info, and goop background-------------------*/
 
+.upcoming-body{
+    height:800px;
+    overflow: scroll;
+    overflow-y:none;
+}
+
 .shoe-price{
     font-family:yu gothic;
-    font-size:30px;
-    margin:5px 0px 0px 200px;
     font-weight:bold;
-    width:400px;
+    position:absolute;
+    width:40%;
+    font-size:6.5vw;
+    margin:-60% 0px 0px 0px;
+    position:absolute;
+    text-align:center;
 }
 
 .release-date{
+    position:absolute;
     font-family:yu gothic;
-    font-size:30px;
-    margin:25px 0px 0px 200px;
     font-weight:bold;
-    width:475px;
+    font-size:6.5vw;
+    margin:80% 0px 0px 0px;
+    width:50%;
+    text-align:center;
 }
 
-.goop-background{
-    order:2px solid red;
-    width:760px;
-    height:535px;
-    z-index:1;
-    position: relative;
-}
-.shoe-pic{
-    
-    width:760px;
-    height:535px;
-    margin:-600px 0px 0px 900px;
-    z-index:2;
-    
-}
-
-.shoe-pic img {
-    width:760px;
-    height:535px;
-    z-index:2;
-    position: absolute;
-    
-}
 .shoe-title{
-    width:255px;
-    height:140px;
-    order:1px solid black;
-    font-size:30px;
+    position:absolute;
     font-weight:bold;
     font-family:yu gothic;
     text-align:center;
-    margin:250px 0px 0px 350px;
+    width:70%;
+    font-size:6vw;
+    margin:-85% 0px 0px 0px;
 }
 
 .shoe-title-big{
-    width:255px;
-    height:200px;
-    font-size:30px;
+    position: absolute;
     font-weight:bold;
     font-family:yu gothic;
     text-align:center;
-    margin:250px 0px 0px 350px;
+    margin:-85% 0px 0px 0px;
+    width:70%;
+    font-size:6vw;
 }
 
 .shoe-info{
-    order:1px solid black;
-    width:570px;
-    height:340px;
     font-family:yu gothic;
-    font-size:30px;
-    margin:25px 0px 0px 200px;
     font-weight:medium;
+    position:absolute;
+    width:80%;
+    height:25%;
+    text-align:center;
+    font-size:4vw;
+    margin:53% 0px 0px 0px;
 }
-.upcoming-body{
-    height:2907px;
+
+.shoe-pic{
+    z-index:3;
+    margin:-90% 0px 0px 0px;
+    position: static;
 }
 
-@media screen and (max-width:992px) {
-    .shoe-info{
-        margin:20px 0px 0px 75px;
-        font-size:20px;
-        border:1px solid black;
-        height:250px;
-        width:350px;
-    }
+.shoe-pic img {
+    z-index:3;
+    width:auto;
+    height:30%;
+    position: absolute;
+}
 
-    .shoe-title{
-        margin:200px 0px 0px 100px;
-    }
+.goop-background{
+    z-index:1;
+    margin:-90% 0px 0px -95%;
+    position:static;
+}
 
-    .shoe-pic{
-        border:2px dotted red;
-        margin: -500px 0px 0px 20px; 
-        width:380px;
-        height:267.5px;
+.goop-background img{
+    z-index:1;
+    position:absolute;
+    height:27%;
+    width:auto;
+}
+
+.element:nth-child(1) .goop-background img{
+    margin:10% 0px 0px 11%;
+}
+
+.element:nth-child(1) .shoe-price + .goop-background img{
+    height:24%;
+    margin:10% 0px 0px 0px;
+}
+
+.element:nth-child(1) .shoe-price + .goop-background + .shoe-pic img{
+    margin:0px 0px 0px -7%;
+}
+
+.element {
+    width: 98vw;
+    height: 800px;
+    scroll-margin: 5px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.x-mandatory {
+    scroll-snap-type: x mandatory;
+}
+
+.x-scroll .wrapper {
+    width: 1500px;
+}
+
+.x-scroll .element {
+    float: left;
+}    
+
+.spacer-shoe{
+    height:0px;
+}
+
+/*--------------desktop-----------*/
+@media only screen and (min-width:768px){
+
+    .upcoming-body{
+        height:140vw;
+        overflow:auto;
+        overflow-y:none;
         
     }
 
-    .shoe-pic img{
-        width:380px;
-        height:267.5px;
-        border:1px solid black;
-        argin:-500px 0px -50px 300px;
+    .shoe-price{
+        font-size:1.5vw;
+        margin:38% 0px 0px 10%;
+        text-align:initial;
     }
 
-    .upcoming-body{
-        height:1800px;
+    .release-date{
+        font-size:1.5vw;
+        margin:35% 0px 0px 10%;
+        width:475px;
+        text-align:initial;
     }
-}
 
-/*--------------------upcoming front page------------*/
-.front-upcoming{
-    height:969px;
-    background-color:black;
+    .shoe-title{
+        width:15%;
+        font-size:1.7vw;
+        margin:10% 0px 0px 18%;
+    }
+
+    .shoe-title-big{
+        margin:10% 0px 0px 18%;
+        width:15%;
+        font-size:1.3vw;
+    }
+
+    .shoe-info{
+        width:31%;
+        height:auto;
+        text-align:initial;
+        font-size:1.5vw;
+        margin:18% 0px 0px 10%;
+    }
+
+    .shoe-pic{
+        position:absolute;
+        margin:10% 0px 0px 49%;
+    }
+
+    .shoe-pic img {
+        width:80%;
+        height:auto;
+        position:static;
+    }
+
+    .goop-background{
+        position:absolute;
+        margin:10% 0px 0px 55%;
+    }
+
+    .goop-background img{
+        width:80%;
+        position:static;
+        height:auto;
+    }
+
+    .element:nth-child(1) .goop-background img{
+        margin:0px 0px 0px 0px;
+    }
+    
+    .element:nth-child(1) .shoe-price + .goop-background + .shoe-pic img{
+        margin:0px 0px 0px 0px;
+    }
+
+    .element {
+        width: 0px;
+        height: 0px;
+        scroll-margin: 0px;
+        scroll-snap-align: start;
+        scroll-snap-stop: normal;
+        display: initial;
+        justify-content: initial;
+        align-items: initial;
+        background-color:red;
+    } 
+
+    .x-mandatory {
+        scroll-snap-type: initial;
+    }
+
+    .x-scroll .wrapper {
+        width: 0px;
+    }
+
+    .x-scroll .element {
+        float: initial;
+    }  
+    
+    .spacer-shoe{
+        height:45vw;
+    }
+
 }
 /*-------------------------------My Footer------------------------------*/
-.effect-footer a {
-    /*display: flex; !!!uncomment this line !!!*/
-      text-decoration: none !important;
-      width: 80px;
-      height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      margin-right: 20px;
-      font-size: 35px;
-      overflow: hidden;
-      position: relative;
-      color: white; 
-      border:2px solid white;
-     
-  }
   
-  /* thurio effect thanks to https://freefrontend.com/css-social-media-icons/ */
+/* thurio effect thanks to https://freefrontend.com/css-social-media-icons/ */
 .effect-footer.thurio a {
       transition: border-radius 0.2s linear 0s;
       transform: rotate(45deg);
@@ -255,232 +499,380 @@
       color:white;
   }
 
-.social-footer{
-    
-    width:200px;
-    margin-top:-90px;
-    margin-left:800px;
-    display: flex;
-    justify-content: center;
-}
-
-.home-link{
-    text-decoration: none;
-    font-family:consolas;
+.archive-link a:hover {
     color:white;
-    font-size:60px;
-    width:100px;
-    margin-left:60px;
-}
-
-.upcoming-link{
-    text-decoration: none;
-    font-family:consolas;
-    color:white;
-    font-size:25px;
-    width:120px;
-    margin-left:80px;
-    
-    
-}
-
-.archive-link{
-    text-decoration: none;
-    font-family:consolas;
-    color:white;
-    font-size:25px;
-    width:100px;
-    margin-left:80px;
-}
-
-.footer{
-    height:200px;
-    background-color:black; 
-}
-
-.home-link & .upcoming-link & .archive-link :hover{
     text-decoration:none;
-    color:red;
+}
+
+.archive-link:hover{
+    transform: scale(1.5); 
+}
+
+.upcoming-link:hover{
+    transform: scale(1.5); 
+}
+
+.upcoming-link a:hover {
+    color:white;
+    text-decoration:none;
+}
+
+.home-link:hover {
+    transform: scale(1.1); 
+}
+
+.home-link a:hover {
+    opacity:.7;
+    color:white;
+    text-decoration:none;
 }
 
 .footer a {
     color:white;
 }
 
-@media screen and (max-width:992px) {
+.footer{
+    height:100vw;
+    background-color:black; 
+}
+
+.home-link{
+    font-family: 'Consolas';
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:white;
+    padding:5px 10px 5px 10px;
+    transition: transform .4s;
+    text-align:center;
+    margin:0px 0px 3% 2%;
+    font-size:13vw;
+    width:auto;
+}
+
+.upcoming-link{
+    text-decoration: none;
+    background-color:#993333;
+    font-family: 'Consolas';
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px 10px 5px 10px;
+    text-align:center;
+    transition: transform .4s;
+    font-size:7vw;
+    margin:0px 0px 7% 20%;
+    width:60%;
+}
+
+.archive-link{
+    text-decoration: none;
+    font-family: 'Consolas';
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+    padding:5px 10px 5px 10px;
+    text-align:center;
+    background-color:#333366;
+    transition: transform .4s;
+    font-size:7vw;
+    width:60%;
+    margin:0px 0px 0px 20%;
+}
+
+.social-footer{
+    margin:10% 0px 0px 24%;
+    width:60%;
+    display: flex;
+    justify-content: center;
+}
+
+.effect-footer a {
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10%;
+    overflow: hidden;
+    position: relative;
+    color: white; 
+    border:2px solid white;
+    height:21.5vw;
+    width:21.5vw;
+    font-size:9vw;
+}
+
+/*--------------desktop-----------*/
+@media only screen and (min-width:768px){
     .footer{
-        height:500px;
+        height:20vw;
     }
 
     .home-link{
-        margin-left:100px;
-        
+        font-size:3.15vw;
+        margin:0px 0px 0px 38.5%;
+        width:16%;
     }
 
     .upcoming-link{
-        margin-left:160px;
+        font-size:1.2vw;
+        margin:0px 0px 1% 41%;
+        width:11%;
     }
 
     .archive-link{
-        margin-left:160px;
+        font-size:1.2vw;
+        margin:0px 0px 0px 41%;
+        width:11%;
     }
 
     .social-footer{
-        margin-left:125px;
+        margin:2% 0px 0px 41.5%;
+        width:11vw;
+    }
+
+    .effect-footer a {
+        /*display: flex; !!!uncomment this line !!!*/
+          width: 4.2vw;
+          height:4.2vw;
+          font-size: 1.8vw;
+      }
+}
+
+/*------------------iphone-6-7-8-plus---------------*/
+@media only screen and (max-width:414px) {
+    ooter{
+        height:300px;
+    }
+
+    home-link{
+        margin-left:60px;
+        
+    }
+
+    upcoming-link{
+        margin-left:130px;
+    }
+
+    archive-link{
+        margin-left:130px;
+    }
+
+    social-footer{
+        margin-left:100px;
         margin-top:50px;
     }
 }
 
+/*------------------ipad---------------*/
+@media only screen and (max-width:768px) {
+    .footer{
+        
+    }
+
+    .home-link{
+      
+        
+    }
+
+    .upcoming-link{
+        
+    }
+
+    .archive-link{
+        
+    }
+
+    .social-footer{
+       
+    }
+}
 /*---------------------Text and image under landing page-------------*/
+
 .summary-text{
-    font-size:80px;
+    font-size:8vw;
+    margin:50% 0px 0px 5%;
+    text-align:center;
+    width:90%;
+    height:15%;
     font-weight:bold;
     font-family: consolas;
     color:black;
-    order:1px solid black;
-    width:440px;
-    height:420px;
-    margin-left:190px;
-    margin-top:150px;
 }
 
 .summary-text p {
-    font-size:40px;
-    order:1px solid red;
-    width:505px;
-    height: 210px;
+    font-size:4.5vw;
+    width:65%;
+    height:15%;
+    margin:0px 0px 0px 10%;
+    font-weight:medium;
+    position:absolute;
+    z-index:3;
 }
 
 .lands{
-    background-color:white;
-    height:969px;
+    height:140vw;
 }
 
 .lands img{
-    margin-left:755px;
-    margin-top:-450px;
-    order:1px solid purple;
+    margin:30% 0px 0px 6%;
+    width:80%;
+    position:absolute;
+    z-index:1;
 }
 
-@media screen and (max-width:992px) {
+/*--------------desktop-----------*/
+@media only screen and (min-width:768px){
     .summary-text{
-        font-size:40px;
-        order:1px solid black;
-        margin-left:10px;
-        text-align:center;
+        font-size:4.1vw;
+        width:24%;
+        height:40%;
+        margin:10% 0px 0px 10%;
     }
 
     .summary-text p {
-        font-size:20px;
-        width:350px;
-        margin-left:40px;
+        font-size:2vw;
+        width:27%;
+        height: 17%;
+        margin:0px 0px 0px -2%;
+    }
+
+    .lands{
+        height:50vw;
     }
 
     .lands img{
-        margin-top:-250px;
-        margin-left:50px;
-        width:80%;
-        eight:50%;
-    }
-
-    .lands{
-        height:600px;
+        margin:-25% 0px 0px 40%;
+        width:50%;   
     }
 }
 
-/*------------------iphone-X---------------*/
-@media screen and (max-width:375px) {
-    .summary-text{
-        font-size:20px;
-        margin-left:5px;
+/*------------------iphone-6-7-8-plus---------------*/
+@media only screen and (max-width:414px) {
+    .ummary-text{
+        font-size:30px;
+        margin-left:30px;
         text-align:center;
+        width:310px;
+        height:90px;
     }
 
-    .summary-text p {
+    .ummary-text p {
+        
         font-size:15px;
-        width:300px;
-        margin-left:20px;
+        width:250px;
+        height:50px;
+        margin-left:35px;
     }
 
-    .lands{
-        height:590px;
+    .ands img{
+        margin-top:80px;
+        margin-left:40px;
+        width:80%;
     }
-}
 
-/*------------------iphone-6-8-plump---------------*/
-@media screen and (max-width:414px) {
-    
+    .ands{
+        height:530px;
+    }
 }
 
 /*------------------ipad---------------*/
-@media screen and (max-width:768px) {
-    
-}
+@media only screen and (max-width:768px) {
+    .ummary-text{
+        font-size:50px;
+        height:130px;
+        margin-left:150px;
+    }
 
-.front{
-    background-image:url("Background-heat.gif");
-    background-size:auto;
-    height: 969px;
-    
-}
+    .ummary-text p {
+        font-size:30px;
+        width:600px;
+        height:120px;
+        margin-left:-80px;
+    }
 
-.front img{
-    position: absolute;
-    z-index: 2;
-    margin-top:-400px;
-    margin-left:-50px;
+    .ands img{
+        margin-top:140px;
+        margin-left:80px;
+        width:80%;
+    }
+
+    .ands{
+        height:800px;
+    }
 }
 
 .front-text{
-    width:524px;
-    height:121px;
-    font-size:100px;
+    margin:50% 0px 0px 8% ;
+    font-size:14vw;
+    position:absolute;
+    z-index: 3;
     color:white;
     font-weight:bold;
-    margin-left:1134px;
-    margin-top:262px;
-    z-index: 3;
 }
 
-@media screen and (max-width:992px) {
-    .front img {
-        width:95%;
-        margin-top:100px;
-        margin-left:-10px;
-        order:1px solid yellow;
+.front img{
+    margin:100% 0px 0px -4%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.front{
+    background-image:url("HeatWave-images/Background-heat.gif");
+    background-size:auto;
+    height:220vw;
+}
+
+/*--------------desktop-----------*/
+@media only screen and (min-width:768px){
+    .front-text{
+        font-size:5vw;
+        margin:13.5% 0px 0px 60%;
+        width:auto;
     }
 
-    .front-text{
-        border:1px solid black;
-        margin-left:10px;
-        font-size:70px;
-        width:420px;
-        margin-top:0px;
+    .front img{
+        margin:0px 0px 0px -5%;
     }
 
     .front{
-        height:700px;
+        background-size:100vw;
+        height: 50vw;
     }
 }
-/*------------------iphone-X---------------*/
-@media screen and (max-width:375px) {
-    .front-text{
-        order:1px solid black;
-        margin-left:10px;
-        font-size:45px;
-        width:400px;
+
+/*------------------iphone-6-7-8-plus---------------*/
+@media only screen and (max-width:414px) {
+    .ront-text{
+        margin-left:20px;
+        font-size:50px;
+        width:300px;
+        height:80px;
         margin-top:0px;
     }
 }
 
-/*------------------iphone-6-8-plump---------------*/
-@media screen and (max-width:414px) {
-    
-}
-
 /*------------------ipad---------------*/
-@media screen and (max-width:768px) {
-    
+@media only screen and (max-width:768px) {
+    .ront{
+        height:135vw;
+    }
+
+    .ront img {
+        margin: 30% 0px 0px -2%;
+        width:100%;
+    }
+
+    .ront-text{
+        margin:100% 0px 0px 20%;
+        font-size:10vw;
+    }
 }
 /*--------------------------Nav Bar--------------------------*/
 .search{
@@ -500,11 +892,31 @@
     height: 2px;
     border-radius: 1px;
     background-color: white;
+    box-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .navbar a {
     color:white;
+    opacity: .9;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+        1px 1px 0 #000;
+    background-color:none !important;
 }
+
+.navbar a:hover {
+    color:white !important;
+    opacity: 0.4;
+    background-color:black !important;
+    border-radius:10px;
+}
+
 .top-page{
     font-family: 'Consolas';
     font-weight: bold;
@@ -512,6 +924,13 @@
 }
 
 .spacer{
-    padding:0px 150px 0px 150px;
-    font-size:30px;
+    padding:0px 50px 0px 150px;
+    font-size:1.5vw;
+}
+
+@media only screen and (max-width:375px) {
+    .spacer{
+        padding:0px 0px 0px 0px;
+        font-size:30px;
+    }
 }
