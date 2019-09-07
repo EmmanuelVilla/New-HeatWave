@@ -1,5 +1,5 @@
 .archive-color-two{
-    margin:60vh 0% 0% 10vw;
+    margin:115% 0% 0% 10vw;
     padding:0px 0px 0px 0px;
     width:40%;
     height:30%;
@@ -16,14 +16,16 @@
     display:none;
 }
 .archive-img-first{
-    height:51%;
-    margin:15% 0px 0px 5%;
+    eight:51%;
+    width:80%;
+    margin:15% 0px 0px 10%;
     border:none;
 }
 
 .archive-text{
     display:none;
 }
+
 .archive-img-second{
     display:none;
 }
@@ -40,7 +42,7 @@
 }
 
 .upcoming-middle-text{
-    font-size:8vw;
+    font-size:4vh;
     margin:120% 0px 0px 20%;
     position:absolute;
     width:50%;
@@ -92,6 +94,7 @@
 
     .archive-img-second{
         height:50%;
+        width:auto;
         border:2px solid white;
         margin:25.5% 0px 0px 0px;
         position:absolute;
@@ -99,7 +102,8 @@
     }
 
     .archive-img-first{
-        height:70%;
+        eight:70%;
+        width:30%;
         margin:5% 0px 0px 45%;
         border:2px solid white;
         position:absolute;
@@ -197,12 +201,11 @@
 }
 
 /*-------------ipad-----------*/
-
-@media only screen and (max-width:768px) {
-    .ront-upcoming{
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+    .front-upcoming{
         height:135vw;
     }
-    .rchive-color-two{
+    .archive-color-two{
         margin:85% 0% 0% 22%;
         padding:0px 0px 0px 0px;
         width:40%;
@@ -211,33 +214,35 @@
         background-color:transparent;
     }
     
-    .rchive-color{
+    .archive-color{
         display:none;
     }
     
-    .rchive-img-first{
-        height:51%;
+    .archive-img-first{
+        eight:51%;
+        width:51%;
         margin:15% 0px 0px 22%;;
     }
     
-    .rchive-text{
-        display:none;
-    }
-    .rchive-img-second{
+    .archive-text{
         display:none;
     }
 
-    .ight-pic{
+    .archive-img-second{
         display:none;
     }
 
-    .eft-pic img{
+    .right-pic{
+        display:none;
+    }
+
+    .left-pic img{
         width:51%;
         margin:15% 0px 0px 22%;
         border:2px solid white;
     }
 
-    .pcoming-middle-text{
+    .upcoming-middle-text{
         font-size:3vh;
         margin:85% 0px 0px 22%;
         width:25%;
@@ -246,18 +251,18 @@
         background-color:transparent;
     }
 
-    .pcoming-front-text{
+    .upcoming-front-text{
         display:none;
     }
 
-    .pcoming-color{
+    .upcoming-color{
         display:none;
     }
 }
 /*--------------------------Styling for the Shoe pictures, info, and goop background-------------------*/
 
 .upcoming-body{
-    height:800px;
+    height:100vh;
     overflow: scroll;
     overflow-y:none;
 }
@@ -267,8 +272,8 @@
     font-weight:bold;
     position:absolute;
     width:40%;
-    font-size:6.5vw;
-    margin:-60% 0px 0px 0px;
+    font-size:3vh;
+    margin:-54% 0px 0px 0px;
     position:absolute;
     text-align:center;
 }
@@ -277,7 +282,7 @@
     position:absolute;
     font-family:yu gothic;
     font-weight:bold;
-    font-size:6.5vw;
+    font-size:3vh;
     margin:80% 0px 0px 0px;
     width:50%;
     text-align:center;
@@ -289,8 +294,8 @@
     font-family:yu gothic;
     text-align:center;
     width:70%;
-    font-size:6vw;
-    margin:-85% 0px 0px 0px;
+    font-size:3vh;
+    margin:-80% 0px 0px 0px;
 }
 
 .shoe-title-big{
@@ -310,7 +315,7 @@
     width:80%;
     height:25%;
     text-align:center;
-    font-size:4vw;
+    font-size:1.8vh;
     margin:53% 0px 0px 0px;
 }
 
@@ -355,7 +360,7 @@
 
 .element {
     width: 98vw;
-    height: 800px;
+    height: 100vh;
     scroll-margin: 5px;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
@@ -386,8 +391,6 @@
     .upcoming-body{
         height:140vw;
         overflow:auto;
-        overflow-y:none;
-        
     }
 
     .shoe-price{
@@ -462,7 +465,6 @@
         display: initial;
         justify-content: initial;
         align-items: initial;
-        background-color:red;
     } 
 
     .x-mandatory {
@@ -479,6 +481,133 @@
     
     .spacer-shoe{
         height:45vw;
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+    .upcoming-body{
+        height:100vh;
+        overflow: scroll;
+        overflow-y:none;
+    }
+    
+    .shoe-price{
+        font-family:yu gothic;
+        font-weight:bold;
+        position:absolute;
+        width:30%;
+        font-size:4vw;
+        margin:-34% 0px 0px 0px;
+        position:absolute;
+        text-align:center;
+    }
+    
+    .release-date{
+        position:absolute;
+        font-family:yu gothic;
+        font-weight:bold;
+        font-size:3vh;
+        margin:50% 0px 0px 0px;
+        width:50%;
+        text-align:center;
+    }
+    
+    .shoe-title{
+        position:absolute;
+        font-weight:bold;
+        font-family:yu gothic;
+        text-align:center;
+        width:50%;
+        font-size:4vw;
+        margin:-50% 0px 0px 0px;
+    }
+    
+    .shoe-title-big{
+        position: absolute;
+        font-weight:bold;
+        font-family:yu gothic;
+        text-align:center;
+        margin:-50% 0px 0px 0px;
+        width:70%;
+        font-size:4vw;
+    }
+    
+    .shoe-info{
+        font-family:yu gothic;
+        font-weight:medium;
+        position:absolute;
+        width:80%;
+        height:25%;
+        text-align:center;
+        font-size:1.8vh;
+        margin:35% 0px 0px 0px;
+    }
+    
+    .shoe-pic{
+        z-index:3;
+        margin:-50% 0px 0px 0px;
+        position: static;
+    }
+    
+    .shoe-pic img {
+        z-index:3;
+        width:auto;
+        height:30%;
+        position: absolute;
+    }
+    
+    .goop-background{
+        z-index:1;
+        margin:-50% 0px 0px -50%;
+        position:static;
+    }
+    
+    .goop-background img{
+        z-index:1;
+        position:absolute;
+        height:27%;
+        width:auto;
+    }
+    
+    .element:nth-child(1) .goop-background img{
+        margin:0% 0px 0px 11%;
+    }
+    
+    .element:nth-child(1) .shoe-price + .goop-background img{
+        height:24%;
+        margin:0% 0px 0px 0px;
+    }
+    
+    .element:nth-child(1) .shoe-price + .goop-background + .shoe-pic img{
+        margin:0% 0px 0px -7%;
+    }
+    
+    .element {
+        width: 98vw;
+        height: 100vh;
+        scroll-margin: 1.5vw;
+        scroll-snap-align: start;
+        scroll-snap-stop: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+    .x-mandatory {
+        scroll-snap-type: x mandatory;
+    }
+    
+    .x-scroll .wrapper {
+        width: 330vw;
+    }
+    
+    .x-scroll .element {
+        float: left;
+    }    
+    
+    .spacer-shoe{
+        height:0px;
     }
 
 }
@@ -644,54 +773,41 @@
       }
 }
 
-/*------------------iphone-6-7-8-plus---------------*/
-@media only screen and (max-width:414px) {
-    ooter{
-        height:300px;
-    }
-
-    home-link{
-        margin-left:60px;
-        
-    }
-
-    upcoming-link{
-        margin-left:130px;
-    }
-
-    archive-link{
-        margin-left:130px;
-    }
-
-    social-footer{
-        margin-left:100px;
-        margin-top:50px;
-    }
-}
-
 /*------------------ipad---------------*/
-@media only screen and (max-width:768px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
     .footer{
-        
+        height:60vw;
     }
 
     .home-link{
-      
-        
+        font-size:10vw;
+        margin:0px 0px 0px 25%;
     }
 
     .upcoming-link{
-        
+        font-size:4vw;
+        width:30%;
+        margin:0px 0px 3% 35%;
     }
 
     .archive-link{
-        
+        font-size:4vw;
+        width:30%;
+        margin:0px 0px 0px 35%;
     }
 
     .social-footer{
-       
+       margin:5% 0px 0px 36%;
+       width:30vw;
     }
+
+    .effect-footer a {
+        width:35vw;
+        height:12vw;
+        font-size:5vw;
+      }
 }
+
 /*---------------------Text and image under landing page-------------*/
 
 .summary-text{
@@ -716,7 +832,7 @@
 }
 
 .lands{
-    height:140vw;
+    height:70vh;
 }
 
 .lands img{
@@ -752,58 +868,29 @@
     }
 }
 
-/*------------------iphone-6-7-8-plus---------------*/
-@media only screen and (max-width:414px) {
-    .ummary-text{
-        font-size:30px;
-        margin-left:30px;
-        text-align:center;
-        width:310px;
-        height:90px;
-    }
-
-    .ummary-text p {
-        
-        font-size:15px;
-        width:250px;
-        height:50px;
-        margin-left:35px;
-    }
-
-    .ands img{
-        margin-top:80px;
-        margin-left:40px;
-        width:80%;
-    }
-
-    .ands{
-        height:530px;
-    }
-}
-
 /*------------------ipad---------------*/
-@media only screen and (max-width:768px) {
-    .ummary-text{
-        font-size:50px;
-        height:130px;
-        margin-left:150px;
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+    .summary-text{
+        font-size:8vw;
+        width:50%;
+        height:20%;
+        margin:15% 0px 0px 25%;
     }
 
-    .ummary-text p {
-        font-size:30px;
-        width:600px;
-        height:120px;
-        margin-left:-80px;
+    .summary-text p {
+        font-size:4vw;
+        width:60%;
+        height:15%;
+        margin:0px 0px 0px -7%;
     }
 
-    .ands img{
-        margin-top:140px;
-        margin-left:80px;
+    .lands img{
+        margin:30% 0px 0px 10%;
         width:80%;
     }
 
-    .ands{
-        height:800px;
+    .lands{
+        height:120vw;
     }
 }
 
@@ -826,7 +913,7 @@
 .front{
     background-image:url("Background-heat.gif");
     background-size:auto;
-    height:220vw;
+    height:100vh;
 }
 
 /*--------------desktop-----------*/
@@ -847,29 +934,19 @@
     }
 }
 
-/*------------------iphone-6-7-8-plus---------------*/
-@media only screen and (max-width:414px) {
-    .ront-text{
-        margin-left:20px;
-        font-size:50px;
-        width:300px;
-        height:80px;
-        margin-top:0px;
-    }
-}
-
 /*------------------ipad---------------*/
-@media only screen and (max-width:768px) {
-    .ront{
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+    .front{
         height:135vw;
+        background-size:250vw;
     }
 
-    .ront img {
+    .front img {
         margin: 30% 0px 0px -2%;
         width:100%;
     }
 
-    .ront-text{
+    .front-text{
         margin:100% 0px 0px 20%;
         font-size:10vw;
     }
@@ -924,13 +1001,22 @@
 }
 
 .spacer{
-    padding:0px 50px 0px 150px;
-    font-size:1.5vw;
+    padding:0px 0px 0px 0px;
+    font-size:30px;
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (min-width:768px){
     .spacer{
-        padding:0px 0px 0px 0px;
-        font-size:30px;
+        padding:0px 50px 0px 150px;
+        font-size:1.5vw;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .spacer{
+        padding:10px 0px 0px 0px;
+        margin:0px 0px 0px 50px;
+        width:200px;
+        font-size:4vw;
     }
 }
