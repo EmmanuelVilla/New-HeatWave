@@ -7,6 +7,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+         <!-----------Font Awesome------>
+        <script src="https://kit.fontawesome.com/7471b3ffc4.js"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
         <!-- Bootstrap CSS -->
@@ -28,9 +31,6 @@
                     </button>
                     <a class="navbar-brand" href="index.html">HEATWAVE</a>
                 </div>
-                <form class="form-inline search">
-                    <input class="form-control mr-sm-2" type="search" placeholder="SEARCH" aria-label="Search">
-                </form>
                 <div class="collapse navbar-collapse " id="navLinks">
                     <ul class="nav navbar-nav ">
                         <li class = "spacer"><a href="upcoming.html">UPCOMING</a></li>
@@ -43,40 +43,60 @@
         <div class = "container-fluid">
             <div class = "row">
                 <div class = "col-lg-12 front-upcoming">
-                    
+                    <div class = "archive-text">ARCHIVE</div>
+                    <div class = "archive-color"></div>
+                    <div class = "archive-color-two">FIND THE LAST PIECE OF YOUR OUTFIT</div>
+                    <img class = "archive-img-first" src = "Nike Sacai yellow.jpg">
+                    <img class = "archive-img-second" src = "Aj from unsplash.jpg"><!---https://unsplash.com/photos/kKObh7tUPNc-->
                 </div>
             </div>
             <div class = "row">
-                <div class = "col-lg-12 upcoming-body">
-                    <div class = "shoe-title">Nike React Element 55 "Indigo Fog"</div>
-                    <div class = "shoe-info">
-                        <p>Classic Air Force 1, with a twist inspired by Virgal Abloh. The mesh middle of the body lets you view sock color to add more variety and uniqueness to your outfit. The bright red accents around the sole and swoosh make this shoe stand out as well as the subtle neon stitching.</p>
-                    </div>
-                    <div class = "release-date">Date Released: May 20, 2019</div>
-                    <div class = "shoe-price">Retail Price: $130</div>
-                    <div class = "shoe-pic">
-                        <img class = "goop-background" src = "React Element Grey.jpg">
-                        <img src = "nike-react-element-55-indigo-fog-1200x750-custom-web.gif">
-                    </div>
-                    <div class = "shoe-title">Air Jordan 1 High OG Phantom</div>
-                    <div class = "shoe-info">
-                        <p>Nike's new shoes the React Element 55, include a mesh body and white sole. Colored in a cold blue body, and beige and black patterns on the sole to add color and texture on the sole.</p>
-                    </div>
-                    <div class = "release-date">Date Released: March 30, 2019</div>
-                    <div class = "shoe-price">Retail Price: $160</div>
-                    <div class = "shoe-pic">
-                        <img class = "goop-background" src = "AJ phantom Dark red.jpg">
-                        <img src = "AirJphantom-custom-photo-outline.gif">
-                    </div>
-                    <div class = "shoe-title">Jordan 1 Retro High OG Defiant SB LA to Chicago</div>
-                    <div class = "shoe-info">
-                        <p>Colored in the Los Angeles Lakers team colors, this shoe comes with a white & royal purple body and golden yellow accents around the swoosh and ankle. This shoe also has a rub off feature that reveals the red and white colors of the Chicago bulls.</p>
-                    </div>
-                    <div class = "release-date">Date Released: May 25, 2019</div>
-                    <div class = "shoe-price">Retail Price: $175</div>
-                    <div class = "shoe-pic">
-                        <img class = "goop-background" src = "AJ LA gold.jpg">
-                        <img src = "nike-sb-air-jordan-1-high-la-to-chicago-outline-web.gif">
+                <div class = "col-lg-12 upcoming-body  container-f x-scroll x-mandatory">
+                    <div class="wrapper">
+                        <div class="element">
+                            <div class = "shoe-title">Nike React Element 55 "Indigo Fog"</div>
+                            <div class = "shoe-info">
+                                <p>Classic Air Force 1, with a twist inspired by Virgal Abloh. The mesh middle of the body lets you view sock color to add more variety and uniqueness to your outfit. The bright red accents around the sole and swoosh make this shoe stand out as well as the subtle neon stitching.</p>
+                            </div>
+                            <div class = "release-date">Date Released: May 20, 2019</div>
+                            <div class = "shoe-price">Retail Price: $130</div>
+                            <div class = "goop-background">
+                                <img src = "React Element Grey.jpg">
+                            </div>
+                            <div class = "shoe-pic">
+                                <img src = "nike-react-element-55-indigo-fog-1200x750-custom-web.gif">
+                            </div>
+                        </div>
+                        <div class = "spacer-shoe"></div>
+                        <div class = "element">
+                            <div class = "shoe-title">Air Jordan 1 High OG Phantom</div>
+                            <div class = "shoe-info">
+                                <p>Nike's new shoes the React Element 55, include a mesh body and white sole. Colored in a cold blue body, and beige and black patterns on the sole to add color and texture on the sole.</p>
+                            </div>
+                            <div class = "release-date">Date Released: March 30, 2019</div>
+                            <div class = "shoe-price">Retail Price: $160</div>
+                            <div class = "goop-background">
+                                <img src = "AJ phantom Dark red.jpg">
+                            </div>
+                            <div class = "shoe-pic">
+                                <img src = "AirJphantom-custom-photo-outline.gif">
+                            </div>
+                        </div>
+                        <div class = "spacer-shoe"></div>
+                        <div class="element">
+                            <div class = "shoe-title">Jordan 1 Retro High OG Defiant SB LA to Chicago</div>
+                            <div class = "shoe-info">
+                                <p>Colored in the Los Angeles Lakers team colors, this shoe comes with a white & royal purple body and golden yellow accents around the swoosh and ankle. This shoe also has a rub off feature that reveals the red and white colors of the Chicago bulls.</p>
+                            </div>
+                            <div class = "release-date">Date Released: May 25, 2019</div>
+                            <div class = "shoe-price">Retail Price: $175</div>
+                            <div class = "goop-background">
+                                <img src = "AJ LA gold.jpg">
+                            </div>
+                            <div class = "shoe-pic">
+                                <img src = "nike-sb-air-jordan-1-high-la-to-chicago-outline-web.gif">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
