@@ -262,7 +262,7 @@
 /*--------------------------Styling for the Shoe pictures, info, and goop background-------------------*/
 
 .upcoming-body{
-    height:100vh;
+    height:100%;
     overflow: scroll;
     overflow-y:none;
 }
