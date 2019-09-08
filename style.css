@@ -322,7 +322,7 @@
 
 .shoe-pic{
     z-index:3;
-    margin:-90% 0px 0px 0px;
+    margin:-30vh 0px 0px 0px;
     position: static;
 }
 
@@ -335,7 +335,7 @@
 
 .goop-background{
     z-index:1;
-    margin:-90% 0px 0px -95%;
+    margin:-30vh 0px 0px -40vh;
     position:static;
 }
 
