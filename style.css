@@ -16,7 +16,6 @@
     display:none;
 }
 .archive-img-first{
-    eight:51%;
     width:80%;
     margin:15% 0px 0px 10%;
     border:none;
@@ -102,7 +101,6 @@
     }
 
     .archive-img-first{
-        eight:70%;
         width:30%;
         margin:5% 0px 0px 45%;
         border:2px solid white;
@@ -219,7 +217,6 @@
     }
     
     .archive-img-first{
-        eight:51%;
         width:51%;
         margin:15% 0px 0px 22%;;
     }
@@ -304,7 +301,6 @@
     font-family:yu gothic;
     text-align:center;
     margin:-35vh 0px 0px 0px;
-    border:1px solid red;
     width:70%;
     font-size:6vw;
 }
@@ -322,7 +318,7 @@
 
 .shoe-pic{
     z-index:3;
-    margin:-30vh 0px 0px 0px;
+    margin:-37vh 0px 0px 0px;
     position: static;
 }
 
@@ -335,7 +331,7 @@
 
 .goop-background{
     z-index:1;
-    margin:-30vh 0px 0px -40vh;
+    margin:-35vh 0px 0px -40vh;
     position:static;
 }
 
@@ -347,12 +343,12 @@
 }
 
 .element:nth-child(1) .goop-background img{
-    margin:10% 0px 0px 11%;
+    margin:0vh 0px 0px 5.5vh;
 }
 
 .element:nth-child(1) .shoe-price + .goop-background img{
     height:24%;
-    margin:10% 0px 0px 0px;
+    margin:0vh 0px 0px 0px;
 }
 
 .element:nth-child(1) .shoe-price + .goop-background + .shoe-pic img{
@@ -912,7 +908,7 @@
 }
 
 .front{
-    background-image:url("Background-heat.gif");
+    background-image:url("HeatWave-images/Background-heat.gif");
     background-size:auto;
     height:100vh;
 }
