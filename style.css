@@ -304,6 +304,7 @@
     font-family:yu gothic;
     text-align:center;
     margin:-35vh 0px 0px 0px;
+    border:1px solid red;
     width:70%;
     font-size:6vw;
 }
