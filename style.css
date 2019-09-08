@@ -901,14 +901,14 @@
 }
 
 .front img{
-    margin:100% 0px 0px -4%;
+    margin:40vh 0px 0px -2vh;
     width:100%;
     position: absolute;
     z-index: 2;
 }
 
 .front{
-    background-image:url("HeatWave-images/Background-heat.gif");
+    background-image:url("Background-heat.gif");
     background-size:auto;
     height:100vh;
 }
