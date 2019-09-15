@@ -760,6 +760,17 @@
 
 }
 /*-------------------------------My Footer------------------------------*/
+
+.credit{
+    color:white;
+    margin:5% 0px 0px 13%;
+    width:75%;
+    font-family:yu gothic;
+}
+
+.credit a{
+    color:rgb(74, 114, 226) !important;;
+}
   
 /* thurio effect thanks to https://freefrontend.com/css-social-media-icons/ */
 .effect-footer.thurio a {
@@ -809,7 +820,7 @@
 }
 
 .footer{
-    height:100vw;
+    height:120vw;
     background-color:black; 
 }
 
@@ -885,8 +896,13 @@
 }
 
 @media only screen and (max-width:896px) and (orientation:landscape){
+    .credit{
+        width:35%;
+        margin:8% 0px 0px 35%;
+    }
+
     .footer{
-        height:60vh;
+        height:80vh;
     }
 
     .home-link{
@@ -921,8 +937,13 @@
 }
 /*--------------desktop-----------*/
 @media only screen and (min-width:897px){
+    .credit{
+        margin:2% 0px 0px 42%;
+        width:10%;
+        font-size:.8vw;
+    }
     .footer{
-        height:20vw;
+        height:25vw;
     }
 
     .home-link{
@@ -958,8 +979,15 @@
 
 /*------------------ipad---------------*/
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
+    .credit{
+        border:1px solid red;
+        margin:5% 0px 0px 25%;
+        font-size:2.5vw;
+        width:50%;
+    }
+
     .footer{
-        height:60vw;
+        height:70vw;
     }
 
     .home-link{
