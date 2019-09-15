@@ -15,6 +15,7 @@
 .archive-color{
     display:none;
 }
+
 .archive-img-first{
     width:80%;
     margin:15% 0px 0px 10%;
@@ -65,9 +66,87 @@
     height:100vh;
     background-color:black;
 }
+@media only screen and (max-width:896px) and (orientation:landscape){
+    .archive-color-two{
+        margin:52vh 0% 0% 50%;
+        width:30%;
+        height:30%;
+        font-size:6vh;
+    }
+    
+    .archive-img-first{
+        width:55vh;
+        margin:9% 0px 0px 5%;
+    }
 
+    .archive-text{
+        z-index:2;
+        position:absolute;
+        margin:15% 0px 0px 50%;
+        color:black;
+        opacity:.4;
+        font-size:10.5vh;
+        font-weight:bold;
+        font-family:yu gothic;
+        letter-spacing: 2px;
+        text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+        display:initial;
+    }
+
+    .archive-color{
+        width:15%;
+        height:11vh;
+        margin:15.5% 0px 0px 39%;
+        background-color:rgb(36, 36, 134);
+        position:absolute;
+        display:initial;
+    }
+
+    .left-pic img{
+        width:55vh;
+        margin:9% 0px 0px 5%;
+    } 
+
+    .upcoming-middle-text{
+        font-size:6vh;
+        margin:52vh 0px 0px 50%;
+        width:30%;
+    }
+
+    .upcoming-color{
+        background-color:#993333;
+        margin:15% 0px 0px 77vh;
+        width:22vw;
+        height:14vh;
+        position:absolute;
+        z-index:1;
+        display:initial;
+    }
+
+    .upcoming-front-text{
+        color:black;
+        opacity:.4;
+        font-weight:bold;
+        font-family:yu gothic;
+        letter-spacing: 2px;
+        text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+        z-index:4;
+        display:initial;
+        position: absolute;
+        font-size:10.5vh;
+        margin:15% 0px 0px 50vw;
+    }
+}
 /*--------------desktop-----------*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:897px){
     .front-upcoming{
         height:51vw;
     }
@@ -199,7 +278,7 @@
 }
 
 /*-------------ipad-----------*/
-@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
     .front-upcoming{
         height:135vw;
     }
@@ -382,8 +461,80 @@
     height:0px;
 }
 
+@media only screen and (max-width:896px) and (orientation:landscape){
+    .shoe-price{
+        margin:16% 0px 0px 20%;
+        font-size:2vw;
+        width:20%;
+    }
+
+    .release-date{
+        margin:16% 0px 0px -20%;
+        font-size:2vw;
+        width:16%;
+        
+    }
+
+    .shoe-title{
+        margin:-15% 0px 0px -20%;
+        font-size:2vw;
+        width:20%;
+    }
+
+    .shoe-title-big{
+        margin:-15% 0px 0px -20%;
+        font-size:1.7vw;
+        width:20%;
+    }
+
+    .shoe-info{
+        margin:-1% 0px 0px -20%;
+        font-size:2vw;
+        width:40%;
+    }
+    
+    .shoe-pic{
+        margin:-30vw 0px 0px 0%;
+    }
+    
+    .shoe-pic img {
+        height:25vw;
+    }
+    
+    .goop-background{
+        margin:-45vh 0px 0px 25vh;
+    }
+    
+    .goop-background img{
+        height:40%;
+    }
+
+    .element:nth-child(1) .shoe-price + .goop-background img{
+        height:34%;
+        margin:0vh 0px 0px 0px;
+    }
+
+    .element:nth-child(1) .goop-background img{
+        margin:0vh 0px 0px 20vh;
+    }
+
+    .element:nth-child(1) .shoe-price + .goop-background + .shoe-pic img{
+        margin:0px 0px 0px 0%;
+    }
+
+    .upcoming-body{
+        height:100vh;
+    }
+
+    .x-scroll .wrapper {
+        width:300vw;
+        background-color: red;
+    }
+    
+}
+
 /*--------------desktop-----------*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:897px){
 
     .upcoming-body{
         height:140vw;
@@ -482,7 +633,7 @@
 
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
     .upcoming-body{
         height:100vh;
         overflow: scroll;
@@ -733,8 +884,43 @@
     font-size:9vw;
 }
 
+@media only screen and (max-width:896px) and (orientation:landscape){
+    .footer{
+        height:60vh;
+    }
+
+    .home-link{
+        font-size:10vh;
+        width:60vh;
+        margin:0px 0px 0px 13%;
+    }
+
+    .upcoming-link{
+        font-size:3vw;
+        width:50vh;
+        margin:2% 0px 0px 15%;
+    }
+
+    .archive-link{
+        font-size:3vw;
+        width:50vh;
+        margin:3% 0px 0px 15%;
+    }
+
+    .social-footer{
+        margin:-18% 0px 0px 60%;
+        width:35%;
+    }
+
+    .effect-footer a {
+        width:13vw;
+        height:13vw;
+        font-size:5vw;
+    }
+
+}
 /*--------------desktop-----------*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:897px){
     .footer{
         height:20vw;
     }
@@ -771,14 +957,15 @@
 }
 
 /*------------------ipad---------------*/
-@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
     .footer{
         height:60vw;
     }
 
     .home-link{
-        font-size:10vw;
+        font-size:9vw;
         margin:0px 0px 0px 25%;
+        width:50%;
     }
 
     .upcoming-link{
@@ -829,18 +1016,45 @@
 }
 
 .lands{
-    height:70vh;
+    height:100vh;
 }
 
 .lands img{
-    margin:30% 0px 0px 6%;
+    margin:30% 0px 0px 8%;
     width:80%;
     position:absolute;
     z-index:1;
 }
 
+
+@media only screen and (max-width:896px) and (orientation:landscape){
+    .summary-text{
+        font-size:4vw;
+        width:30%;
+        height:30%;
+        margin:27vh 0px 0px 10%;
+        position: absolute;
+    }
+
+    .summary-text p{
+        font-size:2.5vw;
+        margin:5% 0px 0px 0px;
+        width:100%;
+        height:70%;
+    }
+
+    .lands{
+        height:100vh;
+    }
+
+    .lands img{
+        margin:18vh 0px 0px 45%;
+        width:87vh;
+    }
+}
+
 /*--------------desktop-----------*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:896px){
     .summary-text{
         font-size:4.1vw;
         width:24%;
@@ -866,12 +1080,12 @@
 }
 
 /*------------------ipad---------------*/
-@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
     .summary-text{
         font-size:8vw;
         width:50%;
         height:20%;
-        margin:15% 0px 0px 25%;
+        margin:15% 0px 0px 26%;
     }
 
     .summary-text p {
@@ -887,7 +1101,7 @@
     }
 
     .lands{
-        height:120vw;
+        height:135vw;
     }
 }
 
@@ -901,7 +1115,7 @@
 }
 
 .front img{
-    margin:40vh 0px 0px -2vh;
+    margin:40vh 0px 0px -3vh;
     width:100%;
     position: absolute;
     z-index: 2;
@@ -913,8 +1127,23 @@
     height:100vh;
 }
 
+@media only screen and (max-width:896px) and (orientation:landscape){
+    .front-text{
+        margin:10% 0px 0px 50%;
+        font-size:8vw;
+    }
+
+    .front img{
+        margin:0px 0px 0px -3%;
+        width:175vh;
+    }
+    .front{
+        height:100vh;
+        background-size: 100%;
+    }
+}
 /*--------------desktop-----------*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:897px){
     .front-text{
         font-size:5vw;
         margin:13.5% 0px 0px 60%;
@@ -927,12 +1156,12 @@
 
     .front{
         background-size:100vw;
-        height: 50vw;
+        height: 51vw;
     }
 }
 
 /*------------------ipad---------------*/
-@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
     .front{
         height:135vw;
         background-size:250vw;
@@ -949,71 +1178,64 @@
     }
 }
 /*--------------------------Nav Bar--------------------------*/
-.search{
-    margin-left:1500px;
-    margin-top:15px;
-    opacity:.5;
-    font-family:consolas;
-    font-weight: bold;
-    letter-spacing: 2px;
-    position: absolute;
-    border:solid 1px black;
-}
-
-.navbar-toggle .icon-bar{
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-    background-color: white;
-    box-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-        1px 1px 0 #000;
-}
-
 .navbar a {
     color:white;
     opacity: .9;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-        1px 1px 0 #000;
-    background-color:none !important;
+    text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
 }
 
 .navbar a:hover {
     color:white !important;
     opacity: 0.4;
-    background-color:black !important;
-    border-radius:10px;
 }
 
-.top-page{
-    font-family: 'Consolas';
-    font-weight: bold;
-    letter-spacing: 2px;
+.navbar{
+    font-family: 'Consolas'!important;
+    font-weight: bold!important;
+    letter-spacing: 2px!important;
+    margin:-0.5% 0px 0px 0px!important;
 }
 
-.spacer{
-    padding:0px 0px 0px 0px;
-    font-size:30px;
+.nav-item{
+    padding:0px 0px 0px 0px!important;
+    font-size:30px!important;
+}
+
+.navbar-toggler :enabled{
+    border-color:red!important;
+    color:green!important;
+    background-color:blue!important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color:none;
+}
+
+.custom-toggler.navbar-toggler :active {
+    border-color:red!important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(185,185,185,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 @media only screen and (min-width:768px){
-    .spacer{
-        padding:0px 50px 0px 150px;
-        font-size:1.5vw;
+    .nav-item{
+        padding:0px 50px 0px 150px!important;
+        font-size:1.5vw!important;
     }
+    
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-    .spacer{
-        padding:10px 0px 0px 0px;
-        margin:0px 0px 0px 50px;
-        width:200px;
-        font-size:4vw;
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait){
+    .nav-item{
+        padding:10px 0px 0px 0px!important;
+        margin:0px 0px 0px 50px!important;
+        width:200px!important;
+        font-size:4vw!important;
+    }
+
+    .navbar-brand{
+        font-size:3vw!important;
     }
 }
